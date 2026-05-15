@@ -9,7 +9,7 @@
 </div>
 
 
-## Get Started
+## 🙌 Get Started
 
 ### 1. Clone This Repo
 
