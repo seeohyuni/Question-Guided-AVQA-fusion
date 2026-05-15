@@ -22,7 +22,28 @@ This repository assumes that the user already has a working PyTorch environment.
 
 ### 2. Prepare Data
 
-The evaluation code uses pre-extracted MUSIC-AVQA features. The JSON split files and model checkpoints are included in this repository, while the feature files should be downloaded separately and placed under `./features`.
+The evaluation code uses pre-extracted MUSIC-AVQA features. The JSON split files and model checkpoints are included in this repository, while the feature files should be downloaded separately.
+
+You can download and extract the feature archive with the following command. Hugging Face authentication may be required if the dataset repository is private or gated. The full download and extraction process takes approximately 20 minutes, depending on the network and storage speed.
+
+```bash
+python download_dataset.py
+```
+
+If `huggingface_hub` is not installed, install it first:
+
+```bash
+pip install huggingface_hub
+```
+
+If authentication is required, log in before running the download script:
+
+```bash
+huggingface-cli login
+python download_dataset.py
+```
+
+The script downloads `features.zip` from Hugging Face and extracts it under `./features`.
 
 Expected directory structure:
 
