@@ -92,7 +92,7 @@ NUM_WORKERS=2 bash scripts/test_audio_pe.sh
 
 The evaluation results are saved as JSON files under `./checkpoints`.
 
-## Results
+## ✅ Results
 
 Question type-wise accuracy comparison on the MUSIC-AVQA test set. The best result among our reproduced variants is highlighted in bold.
 
@@ -119,7 +119,7 @@ Question type-wise accuracy comparison on the MUSIC-AVQA test set. The best resu
   </thead>
   <tbody>
     <tr>
-      <td>AVST [3]</td>
+      <td> AVST </td>
       <td>77.30</td>
       <td>64.73</td>
       <td>72.64</td>
@@ -132,7 +132,7 @@ Question type-wise accuracy comparison on the MUSIC-AVQA test set. The best resu
       <td>71.26</td>
     </tr>
     <tr>
-      <td>AVSD [7]</td>
+      <td> AVSD </td>
       <td>72.41</td>
       <td>61.90</td>
       <td>67.39</td>
@@ -145,7 +145,7 @@ Question type-wise accuracy comparison on the MUSIC-AVQA test set. The best resu
       <td>67.44</td>
     </tr>
     <tr>
-      <td>Pano [8]</td>
+      <td> Pano </td>
       <td>74.36</td>
       <td>64.56</td>
       <td>69.39</td>
