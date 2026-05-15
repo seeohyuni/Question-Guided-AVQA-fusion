@@ -1,6 +1,13 @@
-# MUSIC-AVQA Question-Guided PE Evaluation
+<div align="center">
 
-This repository provides evaluation-only reproduction scripts for the MUSIC-AVQA results reported in Table 1.
+# Question-Guided Audio-Visual Fusion
+
+### 질의 연관 시청각 단서 정제 및 시공간 관계 추론 기반 Audio-Visual Question Answering
+
+**SeoHyeon Park**
+
+</div>
+
 
 ## Models
 
