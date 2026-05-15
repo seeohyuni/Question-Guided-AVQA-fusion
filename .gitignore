@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.DS_Store
+features/
+runs/
+*.test_metrics.json
+*.task_test_metrics.json
+models/*/checkpoints/
+models/audio_pe/train_professor_all+data_positional+notrain+audio/
